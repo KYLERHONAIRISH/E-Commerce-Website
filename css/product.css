@@ -1,0 +1,49 @@
+.prdct {
+    display: flex;
+    align-items: center; 
+}
+
+.prdct img {
+    max-width: 100%; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box h2, .text-box p {
+    margin: 0; 
+}
+#prodetails .single-pro-image{
+
+    width: 50%;
+    margin-left: 60px;
+}
+#prodetails .single-pro-image1{
+    width: 20%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+#prodetails .single-pro-details button:focus{
+outline: none;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
